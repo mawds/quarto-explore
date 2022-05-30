@@ -1,0 +1,11 @@
+{
+  "hash": "f1dbb18814f26a4ee0c842a8831e4bf5",
+  "result": {
+    "markdown": "---\ntitle: Plots Demo\nauthor: Norah Jones\ndate: 5/22/2021\nformat:\n  html:\n    code-fold: true\n---\n\n## Parametric Plots\n\nPlot function pair (x(u), y(u)). \nSee @fig-parametric for an example.\n\n::: {.cell execution_count=1}\n``` {.julia .cell-code}\nusing Plots\n\nplot(sin, \n     x->sin(2x), \n     0, \n     2π, \n     leg=false, \n     fill=(0,:lavender))\n```\n\n::: {.cell-output .cell-output-display execution_count=2}\n![Parametric Plots](quarto_julia_files/figure-html/fig-parametric-output-1.svg){#fig-parametric}\n:::\n:::\n\n\n",
+    "supporting": [
+      "quarto_julia_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

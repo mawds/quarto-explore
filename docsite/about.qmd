@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+Test site to see how practical it is to use Quarto to build tutorials
+using Python and Julia notebooks
+
